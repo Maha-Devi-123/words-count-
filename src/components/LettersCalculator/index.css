@@ -1,0 +1,52 @@
+.container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-edit {
+  width: 450px;
+  margin-left: 20px;
+}
+.cal-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  padding: 8px 15px 8px 15px;
+  background-color: white;
+  color: #1d976c;
+  font-family: 'Roboto';
+  font-weight: bold;
+  border: 0px;
+  border-radius: 4px;
+}
+.head {
+  color: white;
+  font-family: 'Roboto';
+}
+.para {
+  color: white;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+.search-bar {
+  background-color: transparent;
+  width: 200px;
+  border-color: white;
+  border-width: 1px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 12px;
+  height: 23px;
+  font-weight: normal;
+  outline: none;
+}
+.label-can {
+  display: flex;
+  flex-direction: column;
+}
